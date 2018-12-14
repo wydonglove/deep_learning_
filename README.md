@@ -3,11 +3,7 @@
 This repository contains code samples for my book on ["Neural Networks
 and Deep Learning"](http://neuralnetworksanddeeplearning.com).
 
-The code is written for Python 2.6 or 2.7. Michal Daniel Dobrzanski
-has a repository for Python 3
-[here](https://github.com/MichalDanielDobrzanski/DeepLearningPython35). I
-will not be updating the current repository for Python 3
-compatibility.
+
 
 The program `src/network3.py` uses version 0.6 or 0.7 of the Theano
 library.  It needs modification for compatibility with later versions
@@ -41,3 +37,6 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+http://neuralnetworksanddeeplearning.com/chap1.html
