@@ -75,8 +75,6 @@ class Network(object):
         return (output_activations-y)
 
 
-
-
 def sigmoid(z):
     return 1.0/(1.0+np.exp(-z))
 
@@ -85,10 +83,11 @@ def sigmoid_prime(z):
 
 
 training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
-
+#print(list(training_data))
+# print(training_data)
 #net = Network([2, 3, 1])
 net = Network([784, 100, 10])
-net.SGD(list(training_data), 50, 10, 2.0, test_data=list(test_data))
+net.SGD(list(training_data), 50, 20, 3.0, test_data=list(test_data))
 
 
 
